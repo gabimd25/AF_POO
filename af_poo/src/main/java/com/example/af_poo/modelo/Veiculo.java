@@ -28,4 +28,12 @@ public class Veiculo {
     public void setValorDiaria(double valorDiaria) {
         this.valorDiaria = valorDiaria;
     }
+
+    @Override
+    public String toString() {
+        return "Veiculo [codigo= " + codigo + ", modelo= " + modelo + ", valorDiaria= " + valorDiaria+" ]";
+    }
+
+	
 }
+
